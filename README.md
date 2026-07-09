@@ -35,13 +35,19 @@ A real-time **Personal Protective Equipment (PPE) Detection** system built using
 
 ## Project Structure
 
-```
+```text
 PPE-Detection/
 │── app.py
-│── best1.pt
 │── requirements.txt
 └── README.md
 ```
+
+## Model Weights
+
+Download the trained **best.pt** model from the link below and place it in the project root directory.
+
+**Google Drive:**  
+https://drive.google.com/file/d/1YiHj6WOYkrJcrLAP92uyn7AS3jqyh4JV/view
 
 ## Installation
 
@@ -60,7 +66,7 @@ pip install -r requirements.txt
 
 ## Requirements
 
-```
+```text
 ultralytics
 opencv-python
 ```
@@ -98,7 +104,3 @@ yolo task=detect mode=train model=yolov8l.pt data=data.yaml epochs=10 imgsz=320
 - Video file support
 - Object tracking using ByteTrack
 - Performance optimization for CPU
-
-## License
-
-This project is licensed under the MIT License.
